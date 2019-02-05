@@ -15,12 +15,12 @@ public class BeerSong {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        // Main function calls the Ninety_Nine_Bottles_of_Beer function.
+        Ninety_Nine_Bottles_of_Beer ();
     }
     
     public static void Ninety_Nine_Bottles_of_Beer () {
-        
+        // TODO logical impplementation goes here ...
     }
     
 }
