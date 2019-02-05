@@ -20,7 +20,9 @@ public class BeerSong {
     }
     
     public static void Ninety_Nine_Bottles_of_Beer () {
-        // TODO logical impplementation goes here ...
+        // Variable declarations
+        int numofBeer = 99;
+        String word = "bottles";
     }
     
 }
