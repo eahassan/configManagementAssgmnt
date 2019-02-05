@@ -23,6 +23,25 @@ public class BeerSong {
         // Variable declarations
         int numofBeer = 99;
         String word = "bottles";
+        
+        
+        while (numofBeer > 0) {
+            System.out.println(numofBeer + " " + word + " of beer on the wall, " + numofBeer + " " + word + " of beer");
+            numofBeer = numofBeer - 1;
+            
+            if (numofBeer == 1) {
+                word = "bottle";
+            }
+            
+            if (numofBeer > 0) {
+                System.out.println("take one down, pass it round, " + numofBeer + " " + word + " of beer on the wall.");
+            }
+            
+            if (numofBeer == 0) {
+                word = "bottles";
+            System.out.println("take one down, pass it round, " + "no more " + word + " of beer on the wall.");
+           }
+        }
     }
     
 }

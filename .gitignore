@@ -2,3 +2,4 @@ build.xml
 manifest.mf
 /BeerSong/nbproject/
 /BeerSong/nbproject/*
+/BeerSong/build/
