@@ -5,3 +5,4 @@
 
 ### Description:
   The goal of this project is get familiar with Git, the version management system.
+### Programing language used:  Java
